@@ -12,8 +12,7 @@ on:
         required: true
         default: 'Smoke test'
         type: string
-
-  pull_request:
+ pull_request:
     branches: [ "main" ]
 
 jobs:
